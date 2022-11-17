@@ -16,10 +16,10 @@ import numpy as np
 print("Suma de tres números aleatorios: ")
 print(" ")
 
-#np.random.seed(10)   #La semilla que tienes que introducir al cambiar el archivo .py (ese 10 puede ser cualquier número)
+np.random.seed(26)
 x=np.random.randint(100)
 y=np.random.randint(100)
 z=np.random.randint(100)
-suma=(x+y)+z
+suma=x+(y+z)
 
-print("(",x," + ",y,") + ",z," = ",suma)
+print(x," + ",y," + ","(",z,") = ",suma)
