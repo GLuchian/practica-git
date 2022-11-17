@@ -22,4 +22,4 @@ y=np.random.randint(100)
 z=np.random.randint(100)
 suma=x+(y+z)
 
-print(x," + ",y," + ","(",z,") = ",suma)
+print(x," + (",y," + ",z,") = ",suma)
